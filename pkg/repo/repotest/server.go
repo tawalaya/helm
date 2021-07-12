@@ -26,7 +26,7 @@ import (
 	"testing"
 	"time"
 
-	auth "github.com/deislabs/oras/pkg/auth/docker"
+	auth "github.com/oras-project/oras-go/pkg/auth/docker"
 	"github.com/docker/distribution/configuration"
 	"github.com/docker/distribution/registry"
 	_ "github.com/docker/distribution/registry/auth/htpasswd"           // used for docker test registry
